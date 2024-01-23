@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include partials/header %>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Excel Data Filter & Sort</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="excelFile" required>
+      <button type="submit">Upload</button>
+    </form>
+    <% if (data) { %>
+      <!-- Render table with data -->
+    <% } %>
+  </div>
+  <% include partials/footer %>
+</body>
+</html>
