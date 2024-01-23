@@ -1,16 +1,10 @@
 {
-  "name": "excel-data-filter-sort",
+  "name": "server",
   "version": "1.0.0",
-  "description": "A Node.js application to load, filter, and sort data from Excel files.",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "main": "server.js",
   "dependencies": {
-    "bootstrap": "^5.1.3",
-    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "multer": "^1.4.3",
-    "read-excel-file": "^5.2.0"
+    "express-fileupload": "^1.2.1",
+    "xlsx": "^0.16.9"
   }
 }
